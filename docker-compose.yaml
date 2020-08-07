@@ -4,7 +4,7 @@ services:
   myapp-frontend:
     build:
       context: ./frontend
-    image: kilbilpandey/mywebapp:1.0
+    image: mohanraz81/mywebapp-frontend:3.0
     depends_on:
       - myapp-db
     environment:
@@ -28,4 +28,3 @@ services:
       MYSQL_PASSWORD: test123
 volumes:
   myapp-db-vol:
-  
