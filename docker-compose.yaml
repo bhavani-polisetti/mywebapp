@@ -10,7 +10,7 @@ services:
     environment:
       MY_DB_HOST_WRITE: myapp-db
       MY_DB_HOST_READ: myapp-db
-      MY_DB_NAME: userdb
+     # MY_DB_NAME: userdb
       MY_DB_USER: dbuser
       MY_DB_PASS: test123
     ports:
